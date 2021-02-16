@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/main.css">
+
+    <!-- resonsividade -->
+    <link rel="stylesheet" href="style/responsive.css">
+
+    <!-- owl css -->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">    
+    
+    <title>NETFLIX DIO</title>
+
+    <!-- Exercício NETFLIX CLONE 
+        Recrie a interface do principal site de streaming mundial utilizando
+        tecnologias simples como HTML5, CSS3 e JavaScript. Nesse projeto você
+        aprenderá: como estruturar um layout, técnicas de CSS3 com containers
+        e variáveis, como posicionar os elementos com Flexbox e como utilizar
+        plugins Jquery a favor da sua aplicação.
+    -->
+    
+</head>
+<body>
+
+    <script type="text/javascript" src="wz_tooltip.js"></script>
+
+    <header>
+        <div class="container">
+            <h2 class="logo">NETFLIX</h2>
+            <nav>
+                <a href="#principal">Início</a>
+                <a href="#filmes">Filmes</a>
+                <a href="#series">Séries</a>
+                <a href="#documentarios">Documentários</a>
+            </nav>
+
+        </div>
+    </header>
+
+    <main>
+        <div id="principal" class="filme-principal">
+             <div class="container">
+                 <h3 class="titulo">HOUSE OF CARDS</h3>
+                 
+                 <p class="descricao">Um político inescrupuloso não mede esforços para conquistar o poder nos EUA neste drama vencedor do Emmy e do Globo de Ouro.</p>
+                 <div class="botoes">
+                     <a href="https://www.youtube.com/watch?v=SvSkxBYuoQY">
+                        <button role="button" class="botao"> 
+                           <i class="fas fa-play"></i>
+                              ASSISTIR AGORA 
+                        </button>
+                     </a>
+                 </div>
+             </div>  
+         </div>
+    </main>
+
+
+    <div id="filmes" class="carrossel-filmes">
+        <div class="container">
+            <h3 class="titulo">FILMES</h3>
+        </div>
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                 <img class="box-filme" src="img/Filmes/MulherMaravilha1984.jpg" alt="" srcset=""  onmouseover="Tip('Remake do filme Mulher Maravilha de 1984')" onmouseout="UnTip()" />
+                
+                 <div class="item-descricao">
+                    <p>Em 1984, Diana Prince entra em conflito com dois inimigos formidáveis, Maxwell Lord e a Mulher-Leopardo, enquanto reencontra misteriosamente com seu antigo interesse amoroso Steve Trevor.</p>
+                  </div>
+            </div>
+            <div class="item">
+                 <img class="box-filme" src="img/Filmes/AbaixoDeZero.jpg" alt="" srcset="" />
+                 <div class="item-descricao">
+                   <p>Um ônibus penitenciário é atacado e o policial encarregado tem que enfrentar criminosos dentro e fora do veículo, além de um inimigo silencioso: o frio congelante.</p>
+                 </div>  
+            </div>
+            <div class="item">
+                 <img class="box-filme" src="img/Filmes/Ava.jpg" alt="" srcset="">
+                 <div class="item-descricao">
+                   <p>Atormentada por dúvidas, uma assassina de elite luta para proteger a si mesma e a sua família depois que uma missão dá errado.</p>
+                </div>
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/Filmes/Coringa.jpg" alt="" srcset="">
+                <div class="item-descricao">
+                  <P>Arthur Fleck trabalha como palhaço para uma agência de talentos e, toda semana, precisa comparecer a uma agente social, devido aos seus conhecidos problemas mentais. Após ser demitido, Fleck reage mal à gozação de três homens em pleno metrô e os mata. Os assassinatos iniciam um movimento popular contra a elite de Gotham City, da qual Thomas Wayne é seu maior representante.</P>
+                </div>
+            </div>
+
+            <div class="item">
+                <img class="box-filme" src="img/Filmes/BLISS.jpg" alt="" srcset="">
+                <div class="item-descricao">
+                    <p>Uma alucinante história de amor vivida por Greg, recentemente divorciado e demitido, quando ele conhece a misteriosa Isabel, que vive nas ruas e está convencida de que o mundo poluído e deteriorado ao redor deles é só uma simulação virtual. A princípio descrente, Greg descobre que pode haver alguma verdade na louca teoria de Isabel.</p>
+                </div>
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/Filmes/AvesDeRapina.jpg" alt="" srcset="">
+                <div class="item-descricao">
+                    <p>Arlequina, Canário Negro, Caçadora, Cassandra Cain e a policial Renée Montoya formam um grupo inusitado de heroínas. Quando um perigoso criminoso começa a causar destruição em Gotham, as cinco mulheres precisam se unir para defender a cidade.</p>
+                </div>
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/Filmes/OsPequenosVestigios.jpg" alt="" srcset="">
+                <div class="item-descricao">
+                    <p>Um policial começa a ter problemas em sua investigação devido a seu passado obscuro e sua tendência por quebrar as regras.</p>
+                </div>
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/Filmes/Mulan.jpg" alt="" srcset="">
+                <div class="item-descricao">
+                    <p>Hua Mulan é a espirituosa e determinada filha mais velha de um honrado guerreiro. Quando o Imperador da China emite um decreto que um homem de cada família deve servir no exército imperial, Mulan decide tomar o lugar de seu pai, que está doente. Assumindo a identidade de Hua Jun, ela se disfarça de homem para combater os invasores que estão atacando sua nação, provando-se uma grande guerreira.</p>
+                </div>
+            </div>
+            <div class="item">
+                 <img class="box-filme" src="img/Filmes/Soul.jpg" alt="" srcset="">
+                 <div class="item-descricao">
+                    <p>Joe Gardner é um professor de música de ensino fundamental desanimado por não conseguir alcançar seu sonho de tocar no lendário clube de jazz The Blue Note, em Nova York. Quando um acidente o transporta para fora do seu corpo, fazendo com que ele exista em outra realidade na forma de sua alma, ele se vê forçado a embarcar em uma aventura ao lado da alma de uma criança que ainda está aprendendo sobre si, para aprender o que é necessário para retomar sua vida.</p>
+                </div>
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/Filmes/Parasita.jpg" alt="" srcset="">
+                <div class="item-descricao">
+                    <p>Toda a família de Ki-taek está desempregada, vivendo num porão sujo e apertado. Uma obra do acaso faz com que o filho adolescente da família comece a dar aulas de inglês à garota de uma família rica. Fascinados com a vida luxuosa destas pessoas, pai, mãe, filho e filha bolam um plano para se infiltrarem também na família burguesa, um a um. No entanto, os segredos e mentiras necessários à ascensão social custarão caro a todos.</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="series" class="carrossel-series">
+            <div class="container">
+                <h3 class="titulo">SÉRIES</h3>
+            </div>
+    
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <img class="box-series" src="img/Series/BigBangTheory.jpg" alt="" srcset="">
+                    <div class="item-descricao">
+                        <p>Leonard e Sheldon são dois jovens cientistas que moram juntos, sabem tudo de física, mas não parecem saber como se relacionar com mulheres.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img class="box-series" src="img/Series/Bones.jpg" alt="" srcset="">
+                    <div class="item-descricao">
+                        <p>A Dra. Temperance Brennan, antropóloga forense que trabalha no Instituto Jeffersonian ajuda nas investigações policiais de assassinato, com sua grande habilidade de desvendar as pistas ocultas que se escondem por trás do cadáver das vitimas.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img class="box-series" src="img/Series/CobraKai.jpg" alt="" srcset="">
+                    <div class="item-descricao">
+                        <p>Sequência de Karate Kid pega 30 anos depois dos eventos do All Valley Karate Tournament de 1984 e encontra Johnny Lawrence em busca de redenção reabrindo o infame dojo de karate Cobra Kai. </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img class="box-series" src="img/Series/DoisHomensEMeio.jpg" alt="" srcset="">
+                    <div class="item-descricao">
+                        <p>A vida mulherenga do solteirão Charlie é afetada quando seu irmão divorciado e seu sobrinho de língua afiada vão morar com ele.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img class="box-series" src="img/Series/DrHouse.jpg" alt="" srcset="">
+                    <div class="item-descricao">
+                        <p>Um médico dissidente e anti-social, que se especializou em medicina de diagnóstico. Faz o que for preciso para resolver casos intrigantes que estão no seu caminho, usando a sua equipe de médicos e sua inteligência.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img class="box-series" src="img/Series/NCIS.jpg" alt="" srcset="">
+                    <div class="item-descricao">
+                        <p>Sob o exemplar comando de Leroy Jethro Gibbs, uma equipe de agentes especiais investiga crimes relacionados com a Marinha dos Estados Unidos.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img class="box-series" src="img/Series/SealTeam.jpg" alt="" srcset="">
+                    <div class="item-descricao">
+                        <p>O SEAL Team é responsável pelas missões mais perigosas dos EUA. Acompanhe as trajetórias dos agentes desta equipe da Marinha americana.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img class="box-series" src="img/Series/Simpons.jpg" alt="" srcset="">
+                    <div class="item-descricao">
+                        <p>A família Simpsons mora na cidade de Springfield, uma cidade americana como qualquer outra. Homer trabalha como inspetor de segurança numa usina de energia nuclear. Marge tenta manter a paz em sua família. Bart é um travesso garoto de 10 anos. Lisa, 8, é a inteligente da família, que adora tocar saxofone e é vegetariana. E a pequena Maggie conquista todos enquanto não larga sua chupeta. E a série tem um rico, e muitas vezes estranho, universo de personagens que também habitam Springfield. Com roteiros inteligentes, humor subversivo e divertidamente genial, a série faz piadas de si mesma e de todo mundo que aparecer em seu caminho.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img class="box-series" src="img/Series/TheMandalorian.jpg" alt="" srcset="">
+                    <div class="item-descricao">
+                        <p>A saga de um guerreiro solitário, que também é um mercenário e pistoleiro, viajando pelos territórios esquecidos e marginais do espaço, logo após a queda do Império e antes da criação da temida Primeira Ordem.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img class="box-series" src="img/Series/WandaVision.jpg" alt="" srcset="">
+                    <div class="item-descricao">
+                        <p>Wanda Maximoff e Visão, um casal de super-heróis com uma vida perfeita, que começa a suspeitar que nem tudo é o que parece.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="documentarios" class="carrossel-documentarios">
+            <div class="container">
+                <h3 class="titulo">DOCUMENTÁRIOS</h3>
+            </div>
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <img class="box-documentarios" src="img/Documentarios/Choke.jpg" alt="" srcset="">
+                    <div class="item-descricao">
+                        <p>CHOKE segue o indiscutível campeão mundial de luta livre, Rickson Gracie, enquanto ele se prepara para defender seu título em um torneio de eliminação única de uma noite, onde o vencedor lutará três lutas separadas durante cinco horas.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img class="box-series" src="img/Documentarios/AVidaAposHitler.jpg" alt="" srcset="">
+                    <div class="item-descricao">
+                        <p>A derrota da Alemanha Nazista não significou um futuro iluminado virando a esquina. Uma Europa despedaçada teve de se reconstruir, curar suas feridas e lidar com a queda de um conflito interminável e bárbaro, enquanto esboçava os traços de seu futuro.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img class="box-series" src="img/Documentarios/HomenSemImpacto.jpg" alt="" srcset="">
+                    <div class="item-descricao">
+                        <p>Documentário americano de 2009, dirigido por Laura Gabbert e Justin Schein, baseado no livro de Colin Beavan. O filme segue Colin Beavan e sua família durante seu experimento de um ano para ter zero impacto no meio ambiente.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img class="box-series" src="img/Documentarios/Minimalism.jpg" alt="" srcset="">
+                    <div class="item-descricao">
+                        <p>Como sua vida pode ser melhor com menos? A popular dupla de vida simples, The Minimalists, examina os vários sabores do minimalismo, levando o público para dentro da vida de minimalistas de várias esferas da vida.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img class="box-series" src="img/Documentarios/MichaelJackson.jpg" alt="" srcset="">
+                    <div class="item-descricao">
+                        <p>Imagens inéditas, entrevistas, fotos e vídeos de performances que contam a vida de Michael Jackson.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img class="box-series" src="img/Documentarios/Scandal.jpg" alt="" srcset="">
+                    <div class="item-descricao">
+                        <p>O documentário acompanha o grupo durante sua atuação em países da Europa, América do Norte e Ásia.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img class="box-series" src="img/Documentarios/Schindler.jpg" alt="" srcset="">
+                    <div class="item-descricao">
+                        <p>A verdadeira história das façanhas de Oskar Schindler, nas quais salvou mil judeus dos fornos dos campos de extermínio, é contada por testemunhas de primeira mão.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img class="box-series" src="img/Documentarios/Score.jpg" alt="" srcset="">
+                    <div class="item-descricao">
+                        <p>Documentário sobre os principais desenvolvimentos na evolução da música e exploração de algumas das trilhas sonoras mais icônicas do cinema.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img class="box-series" src="img/Documentarios/PandemicCovid19.jpg" alt="" srcset="">
+                    <div class="item-descricao">
+                        <p>Epidemiologistas e virologistas especialistas explicam a rápida disseminação do vírus SARS CoV2 como os sintomas COVID 19.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img class="box-series" src="img/Documentarios/Spitfire.jpg" alt="" srcset="">
+                    <div class="item-descricao">
+                        <p>Um documentário de longa-metragem sobre as pessoas e os aviões que ajudaram a vencer a Segunda Guerra Mundial.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <div class="container">
+          
+          <h5>Silvania Candido by Digital Innovation One</h5>
+          
+        </div>
+     </footer>
+
+
+    <!-- Place your kit's code here (ícones para botôes) -->
+    <script src="https://kit.fontawesome.com/6c7d0c1885.js" crossorigin="anonymous"></script>
+
+    <!-- Para configurar o carrossel dos filmes -->
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
+
+</body>
+</html>
+
+
